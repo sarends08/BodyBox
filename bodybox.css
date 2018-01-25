@@ -1,0 +1,79 @@
+.jumbotron {
+	height: 40vh;
+	background-image: url(health-food.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.jumbotron > h1 {
+	padding: 5% 0 2% 0;
+	font-size: 5em;
+}
+
+section > h2 {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.navbar {
+	background-color: white;
+}
+
+.middle {
+	padding-bottom: 8%;
+}
+
+.img-thumbnail:hover {
+	opacity: 0.8;
+}
+
+.container-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60vh;
+	background-image: url(chicken-dinner.jpg);
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.container-img:hover{
+	opacity: 0.9;
+}
+
+.coupon{
+	border-radius: 5px;
+	padding: 5%;
+	z-index: 1;
+	position: relative;
+	text-align: center;
+}
+
+.coupon-bg{
+	background-color: white;
+	z-index: -1;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.bottom {
+	padding-bottom: 8%;
+}
+
+footer{
+	background-color: #EC971F;
+	padding: 2% 0 2% 0;
+	color: #eee;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
